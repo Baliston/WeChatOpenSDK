@@ -3,15 +3,15 @@ import PackageDescription
 
 let package = Package(
   name: "WeChatOpenSDK",
-  platforms: [.iOS(.v12)],
+  platforms: [.iOS(.v16)],
   products: [
     .library(name: "WeChatOpenSDK", targets: ["WeChatOpenSDK"])
   ],
   targets: [
     .binaryTarget(
       name: "WeChatOpenSDK",
-      url: "https://github.com/Baliston/WeChatOpenSDK/releases/download/2.0.5/WeChatOpenSDK-2.0.5.zip",
-      checksum: "10aa88b4fa297a2b46b59a878b7303aff0c1d6ac7c241259dec6b3ca89424e40"
+      url: "https://github.com/Baliston/WeChatOpenSDK/releases/download/2.0.6/WeChatOpenSDK-2.0.6.zip",
+      checksum: "6750caded55e0d9c85ec9e566fa49841b5a5e132b8d4246bc9650d29baefafe3"
     )
   ]
 )
